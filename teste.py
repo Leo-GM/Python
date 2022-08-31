@@ -15,7 +15,3 @@ while exp < 0:
 
 print(result)
 
-print("arroz krl")
-
-
-print("mudança do leozin")
