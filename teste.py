@@ -15,4 +15,4 @@ while exp < 0:
 
 print(result)
 
-print(arroz)
+print("arroz krl")
