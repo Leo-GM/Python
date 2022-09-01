@@ -1,17 +1,13 @@
-base = float(input())
-exp = int(input())
+n = 0
+OK = True
 
-result = 1
+while OK:
+    
+    n = int(input(""))
 
-while exp > 0:
+    if n > 0:
+        n = n + 1
+    else:
+        OK = False
 
-    result = result * base
-    exp = exp -1
-
-while exp < 0:
-    result = result / base
-
-    exp = exp + 1
-
-print(result)
-
+print("A quantidade de números inteiros fornecidos é" , n)
