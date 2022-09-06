@@ -82,6 +82,7 @@ if (hora >= 18) and (minuto >= 30):
             valor = valor * (1/2)
 
 ## HORÁRIO 18:30++++##
+
 elif (hora > 18):
     if dia == 2:
         valor = 20
