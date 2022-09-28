@@ -18,14 +18,21 @@ for dia in range(1, (dias + 1)):
         
         inicio = int(input())
         fim = int(input())
-            
-        horasDia = horasDia + (fim - inicio)
 
-    if horasDia > 8:
+
+        if (fim - inicio) > 8:
+            extra = extra + ((fim - inicio) - 8)
+            horas = horas + 8
+            flag = 1
+
+        else:
+            horas = horas + (fim - inicio)
+            horasDia = horasDia + (fim - inicio)
+
+    if flag == 0 and horasDia > 8:
         extra = extra + (horasDia - 8)
-        horas = horas + 8
-    else:
-        horas = horas + horasDia
+        horas = horas - (horasDia - 8)
+        
 
 if horas > 44:
     extra = extra + horas - 44

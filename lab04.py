@@ -6,7 +6,7 @@
 ###################################################
 estoque = 0
 n_vendas = 0
-lista =[]
+lista = []
 
 while True:
     pedidos = int(input())
@@ -27,9 +27,7 @@ for pedido in lista:
             n_vendas = n_vendas + 1
     
     if pedido > 0:
-
         estoque = estoque + pedido
 
 print("Quantidade de vendas realizadas:", n_vendas)
-
 print("Quantidade em estoque:", estoque)
