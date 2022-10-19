@@ -1,3 +1,9 @@
+###################################################
+# MC102 - Algoritmos e Programação de Computadores
+# Laboratório 8 - Wordle
+# Nome: Leonardo Henrique Guimarães
+# RA: 247225
+###################################################
 import sys
 resposta = input()
 lista1 = list(resposta)
